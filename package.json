@@ -1,0 +1,52 @@
+{
+  "name": "lw-burning-forest",
+  "version": "1.0.0",
+  "description": "Laboratory work on labor protection.",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run dev && npm run electron",
+    "electron": "electron ./dist/main.js",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development",
+    "watch": "webpack --config webpack.config.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimchenkoSergey/lw-burning-forest.git"
+  },
+  "keywords": [
+    "Electron",
+    "typescript",
+    "react",
+    "webpack"
+  ],
+  "author": "Sergey Timchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimchenkoSergey/lw-burning-forest/issues"
+  },
+  "homepage": "https://github.com/TimchenkoSergey/lw-burning-forest#readme",
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/node": "^9.6.0",
+    "@types/react": "^16.3.2",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-redux": "^5.0.15",
+    "@types/redux": "^3.6.0",
+    "@types/redux-actions": "^2.2.4",
+    "antd": "^3.4.0",
+    "css-loader": "^0.28.11",
+    "electron": "^1.8.4",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.3.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
